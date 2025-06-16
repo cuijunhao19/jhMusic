@@ -1,0 +1,89 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/音乐背景.png);
+  background-size: cover;
+  /* 将背景图像扩展至足够大，使背景图像完全覆盖背景区域（即使需要裁剪图像） */
+  background-attachment: fixed;
+  /* 将背景图像固定在视口（viewport）中，当页面滚动时，背景图像不会移动。 */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background-color: #7fe9e9;
+  background-image: url(../images/【哲风壁纸】2024-10-11\ 12_08_42.png);
+  color: #7fe9e9;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+  padding-left: 40px;
+  font-size: 18px;
+}
+
+nav ul li a {
+  color: #7fe9e9;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ff9900;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #dff1f0;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #7fe9e9;
+  background-image: url(../images/背景3.png);
+  color: #7fe9e9;
+  text-align: center;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
