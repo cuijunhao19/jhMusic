@@ -73,14 +73,9 @@ li {
 }
 
 footer {
-  background-color: #7fe9e9;
-  background-image: url(../images/背景3.png);
   color: #7fe9e9;
   text-align: center;
   padding: 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
 }
 

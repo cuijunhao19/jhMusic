@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
     if (window.scrollY > 50) {
       header.style.backgroundColor = "#333";
+      header.style.backgroundImage = "none";
     } else {
-      header.style.backgroundColor = "linear-gradient(to right, #191970, #333)"; // 改变原来的颜色
+      header.style.backgroundColor = "";
+      header.style.backgroundImage = "linear-gradient(to right, #191970, #333)";
     }
   });
 });

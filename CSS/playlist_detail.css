@@ -39,7 +39,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   transition: color 0.3s ease;
 }
@@ -169,6 +169,8 @@ footer {
   color: #7fe9e9;
   text-align: center;
   padding: 0 0;
+  position: fixed;
+  bottom: 0;
   width: 100%;
 }
 
